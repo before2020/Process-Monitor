@@ -44,7 +44,7 @@ public:
     void setCpuCoresStats();
     std::vector<std::string> getCoresStats()const;
 };
-
+void SysInfo::setLastCpuMeasures() {}
 void SysInfo::getOtherCores(int _size){
 //when number of cores is detected, vectors are modified to fit incoming data
         this->coresStats = std::vector<std::string>();
